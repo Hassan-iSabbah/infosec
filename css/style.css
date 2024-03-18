@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'bubbly';
+    src: url('MadimiOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Chill';
+    src: url('Dosis-Medium.ttf');
+}
+
+.cut{
+    border-radius: 1%;
+}
+
+.j-100{
+    min-width:100vw;
+    min-height: 100vh;
+}
+.j-80{
+    min-width:80vw;
+    min-height: 80vh;
+}
+.j-60{
+    min-width:60vw;
+    min-height: 60vh;
+}
+.j-50{
+    min-width:50vw;
+    min-height: 50vh;
+}
+.j-40{
+    min-width:40vw;
+    min-height: 40vh;
+}
+.j-30{
+    min-width:30vw;
+    min-height: 30vh;
+}
+.j-20{
+    min-width:20vw;
+    min-height: 20vh;
+}
+img{
+    border-radius: 1%;
+    background-position: center;
+    background-clip: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    min-width: 5vw;
+    max-height: 50vh;
+}
+
+#hero h1{
+    font-size: 6rem !important;
+    font-weight: 300 !important;
+    font-family: 'Chill';
+}
+
+.nav-item{
+    font-style: italic;
+}
+
+#hero{
+    position: relative;
+}
+#hero::after{
+    z-index: -1;
+    position: absolute;
+    content: '';
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/cyber.jpg');
+    background-position: center;
+    background-clip: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    filter: brightness(60%);
+}
+
+.floating{
+    position: absolute;
+    left:15vw;
+    top: 170vh;
+}
+.floating .icon{
+    border-radius: 73% 27% 80% 20% / 15% 82% 18% 85% ;
+    transition: all 300ms ease-in-out;
+    font-weight:200 !important;
+}
+
+.floating .icon:hover{
+    border-radius: 8% 92% 11% 89% / 89% 10% 90% 11% ;
+    scale: 1.2;
+    font-weight:900 !important;
+}
+
+.f-2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#tellie{
+    position: fixed;
+    top: 5vh;
+    right: 10vw;
+}
